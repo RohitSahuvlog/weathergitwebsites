@@ -1,0 +1,201 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+.container-fluid .navbar { 
+    background-color: #212F3C;
+    font-size: 3rem;
+
+  
+}
+body{
+    width: 100vw;
+    height: 100vh;
+     display: flex;
+   
+    flex-direction: column; 
+
+    background-color: #5DADE2;
+}
+.row{
+    width: 100%;
+height: 100%;
+}
+
+
+
+.mian_menu{
+    background-color: #212F3C;
+}
+.navbar a  {
+    font-size: 30px;
+    color: blue;
+    background-color: #212F3C;
+    
+
+    
+}.navbar  {
+    font-size: 30px;
+    color: blue;
+    background-color: #212F3C;
+      
+}
+nav li{
+    margin-left: 40px;
+}
+nav :first-child{
+    margin-left: 1px;
+}
+nav :last-child{
+    margin-left: 0%;
+}
+.navbar-toggler{
+    color: white;
+    background-color: rgb(6, 127, 241);
+}
+.carousel-inner{
+    width: 40vw;
+    height: 50vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15%;
+    margin-top: 10%;
+    border:2px solid white;
+    box-shadow: 0.8rem 1rem 0.8rem white;
+    
+
+}
+.wheather_text h1  h3{
+   
+    display: flex;
+    justify-content: center;
+}
+.wheather_text h1 {
+   
+ margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    color: rgb(233, 233, 233);
+}
+
+.fa-snowflake{ font-size: 30px;
+    animation: rot 2s linear infinite;
+}
+
+@keyframes rot {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 50px;
+    text-decoration: none;
+
+}
+#btn:hover{
+    background-color: rgb(77, 119, 77);
+    
+}
+#btn1{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 70px;
+    text-decoration: none;
+
+}
+#btn1:hover{
+    background-color: rgb(77, 119, 77);
+}
+footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    /* text-shadow: 1rem 1rem 1rem blue; */
+    background-color: rgba(207, 231, 235, 0.294);
+}
+.z-block{
+    width: 40px;
+    border-radius: 20%;
+    margin-top:30px;
+
+}
+/* .row f-block{
+    background-color: white;
+    color: #000;
+} */
+.f-block{
+    width: 50vw;
+    /* border-radius: 20%; */
+    margin-top: 70px;
+    background-color: #fff;
+
+} 
+
+.div{margin-top: 10%;
+   position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.input{
+    width: 24%;
+    height:31px;
+    margin-left: 4%;
+    position: relative;
+    background-color: rgb(185, 190, 192);
+    color: black;
+    border-radius: 20px;
+
+}
+.input:hover{
+    background-color: #fff;
+}
+.search{
+    position: absolute;
+    margin-left: 24%;
+    background-color: rgb(180, 127, 127);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.search:hover{
+    background-color: #fff;
+}
+.area{
+    width: 24%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(12, 11, 11);
+    color: white;
+    margin-left: 40%;
+    position: absolute;
+    border-radius: 10%;
+}
+.fass{
+    width: 200px;
+    height: 20px;
+}
+.slayer.hide_data{
+    visibility: hidden;
+}
+
+.fas{
+    color: yellow;
+}
